@@ -10,21 +10,18 @@ public class App
     {
 
 
+        Veterinar_Doc doctor;
 
-        Veterinar_Doc doctor=new Veterinar_Doc();
-        doctor.degree="Chirurug";
-        doctor.name="David";
+        doctor=new Veterinar_Doc("David", "Chirurg");
 
-        AnimalFood  mancare=new AnimalFood();
-        mancare.diponibility=4;
-        mancare.name="Wiskas";
-        mancare.price=200;
 
-        Activity_of_Recreation activitate=new Activity_of_Recreation();
-        activitate.name="Park";
+        AnimalFood  mancare=new AnimalFood("Whiskas",100,3,12,5);
 
-        Adopter om=new Adopter();
-        om.name="Alexandra";
-        om.money=1200;
+
+        Activity_of_Recreation activitate=new Activity_of_Recreation("Park");
+
+
+        Adopter om=new Adopter("Alexandra",1200);
+
     }
 }
