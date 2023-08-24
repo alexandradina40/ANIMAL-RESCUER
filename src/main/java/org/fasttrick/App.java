@@ -11,7 +11,7 @@ public class App
 
 
         Veterinar_Doc doctor;
-
+        Animal pisica=new Animal("Mica",3,2, 1, 6,"Whiskas","Park");
         doctor=new Veterinar_Doc("David", "Chirurg");
 
 
@@ -23,5 +23,7 @@ public class App
 
         Adopter om=new Adopter("Alexandra",1200);
 
+        om.food(pisica,mancare);
+        om.activity(pisica);
     }
 }
