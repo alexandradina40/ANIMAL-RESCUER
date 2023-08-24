@@ -24,6 +24,6 @@ public class App
         Adopter om=new Adopter("Alexandra",1200);
 
         om.food(pisica,mancare);
-        om.activity(pisica);
+        om.activity(pisica,activitate);
     }
 }
